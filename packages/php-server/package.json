@@ -1,0 +1,72 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+        "spec": "/tmp/d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11795-10093-1rvjwwk.u50ut5u3di"
+    ]
+  ],
+  "_from": "../d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+  "_id": "php-server@0.7.0",
+  "_inCache": true,
+  "_location": "/php-server",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+    "spec": "/tmp/d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+  "_shasum": "c8048191a9e931a3d36c3569834cfc156c0e4248",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11795-10093-pfpfn.3kledbo6r/package.tgz",
+  "_where": "/tmp/apm-install-dir-11795-10093-1rvjwwk.u50ut5u3di",
+  "activationCommands": {
+    "atom-workspace": "php-server:start",
+    ".tree-view": [
+      "php-server:start-tree",
+      "php-server:start-tree-route"
+    ],
+    "atom-text-editor": "php-server:start-document"
+  },
+  "bugs": {
+    "url": "https://github.com/leijou/php-server/issues"
+  },
+  "dependencies": {
+    "atom-message-panel": "latest",
+    "atom-space-pen-views": "^2.0.3",
+    "open": "latest",
+    "portfinder": "latest"
+  },
+  "description": "Run a local PHP server from within Atom, displaying the log in a bottom panel",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/leijou/php-server#readme",
+  "license": "MIT",
+  "main": "./lib/php-server",
+  "name": "php-server",
+  "optionalDependencies": {},
+  "readme": "# PHP Server\n\nAn Atom package to run PHP's built-in development server and display the log in a bottom pane. Can be started from any folder in the tree, the currently opened file, or the project root.\n\n![Screenshot](http://i.imgur.com/FhVtl9v.png)\n\n## Requirements\n\nPHP must be installed on your machine, version 5.4 or greater.\n\nIf `php` is not in your system PATH you will need to put in the full path to your PHP executable in the settings of this package.\n\n## Commands\n\n* `php-server:start` &mdash; Start / Restart PHP server from project path\n* `php-server:start-tree` &mdash; Start / Restart PHP server from folder/file selected in tree\n* `php-server:start-document` &mdash; Start / Restart PHP server from currently open file\n* `php-server:stop` &mdash; Stop running PHP server\n* `php-server:clear` &mdash; Clear message panel\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leijou/php-server.git"
+  },
+  "version": "0.7.0"
+}

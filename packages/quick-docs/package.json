@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+        "spec": "/tmp/d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11795-10161-1hj47xp.m7r1thuxr"
+    ]
+  ],
+  "_from": "../d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+  "_id": "quick-docs@0.1.0",
+  "_inCache": true,
+  "_location": "/quick-docs",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+    "spec": "/tmp/d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+  "_shasum": "9559ede4fb7cdd092ae337e614d891ae75a20035",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11795-10161-1pmf5yx.sin8ode7b9/package.tgz",
+  "_where": "/tmp/apm-install-dir-11795-10161-1hj47xp.m7r1thuxr",
+  "bugs": {
+    "url": "https://github.com/anshulk/quick-docs/issues"
+  },
+  "consumedServices": {
+    "inline-messaging": {
+      "versions": {
+        "^1.0.0": "consumeInlineMessenger"
+      }
+    }
+  },
+  "dependencies": {},
+  "description": "Atom package to view docs of a function under cursor. PHP for now.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/anshulk/quick-docs#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "./lib/quick-docs",
+  "name": "quick-docs",
+  "optionalDependencies": {},
+  "readme": "# quick-docs package\n\n#### Now offline!\n\nAtom package to view docs of a function under cursor. PHP for now.\n\nUtilizes [inline-messenger](http://atom.io/packages/inline-messenger) . Thanks a lot to its developer. Please install inline-messenger, you can also customize the look of pop-ups using its settings.\n\nPress `ctrl-shift-q` to toggle PHP docs and signature for the function under cursor. Instantaneous display of docs.\n\nContributions welcome :)\n\n### Preview\n\n!['quickdocs.png'](https://raw.githubusercontent.com/anshulk/quick-docs/master/quickdocs.png)\n\n#### TODO\n- [ ]  PHP Classes\n- [ ]  Show argument details ?\n- [ ]  Word Wrap and better formatting\n- [ ]  Multiple language support\n \n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anshulk/quick-docs.git"
+  },
+  "version": "0.1.0"
+}

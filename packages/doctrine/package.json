@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+        "spec": "/tmp/d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11794-23079-clt5j6.mrc0udi"
+    ]
+  ],
+  "_from": "../d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+  "_id": "doctrine@0.3.4",
+  "_inCache": true,
+  "_location": "/doctrine",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+    "spec": "/tmp/d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+  "_shasum": "c77b8a27b2fdce766892415f3ac06776042c4c7e",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11794-23079-1ov2y30.anlz4u0udi/package.tgz",
+  "_where": "/tmp/apm-install-dir-11794-23079-clt5j6.mrc0udi",
+  "bugs": {
+    "url": "https://github.com/Cronos87/atom-doctrine/issues"
+  },
+  "dependencies": {},
+  "description": "Doctrine support for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Cronos87/atom-doctrine#readme",
+  "keywords": [
+    "doctrine",
+    "orm",
+    "php"
+  ],
+  "license": "MIT",
+  "name": "doctrine",
+  "optionalDependencies": {},
+  "readme": "# Doctrine Package for Atom\n\nDoctrine support for Atom.\n\nAt the moment only support functions completion.\n\n### ORM Functions\n\n - `Column`\n - `ColumnResult`\n - `Cache`\n - `ChangeTrackingPolicy`\n - `DiscriminatorColumn`\n - `DiscriminatorMap`\n - `Entity`\n - `EntityResult`\n - `FieldResult`\n - `GeneratedValue`\n - `HasLifecycleCallbacks`\n - `Index`\n - `Id`\n - `InheritanceType`\n - `JoinColumn`\n - `JoinColumns`\n - `JoinTable`\n - `ManyToOne`\n - `ManyToMany`\n - `MappedSuperclass`\n - `NamedNativeQuery`\n - `OneToOne`\n - `OneToMany`\n - `OrderBy`\n - `PostLoad`\n - `PostPersist`\n - `PostRemove`\n - `PostUpdate`\n - `PrePersist`\n - `PreRemove`\n - `PreUpdate`\n - `SequenceGenerator`\n - `SqlResultSetMapping`\n - `Table`\n - `UniqueConstraint`\n - `Version`\n\n### ORM Functions Parameters\n\n - `allocationSize`\n - `cascade`\n - `column`\n - `columnDefinition`\n - `columns`\n - `discriminatorColumn`\n - `entities`\n - `entityClass`\n - `fetch`\n - `fields`\n - `indexBy`\n - `indexes`\n - `initialValue`\n - `inverseJoinColumns`\n - `inversedBy`\n - `joinColumns`\n - `length`\n - `mappedBy`\n - `name`\n - `nullable`\n - `onDelete`\n - `options`\n - `orphanRemoval`\n - `query`\n - `readOnly`\n - `referencedColumnName`\n - `region`\n - `repositoryClass`\n - `resultClass`\n - `resultSetMapping`\n - `schema`\n - `sequenceName`\n - `strategy`\n - `targetEntity`\n - `type`\n - `unique`\n - `uniqueConstraints`\n - `usage`\n\n### ORM Types\n\n - `array`\n - `bigint`\n - `blob`\n - `boolean`\n - `date`\n - `datetime`\n - `datetimetz`\n - `decimal`\n - `float`\n - `guid`\n - `integer`\n - `json_array`\n - `object`\n - `simple_array`\n - `smallint`\n - `string`\n - `text`\n - `time`\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cronos87/atom-doctrine.git"
+  },
+  "version": "0.3.4"
+}

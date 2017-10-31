@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+        "spec": "/tmp/d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11794-22256-m0a197.xuy2kgwrk9"
+    ]
+  ],
+  "_from": "../d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+  "_id": "logo-file-icons@1.12.0",
+  "_inCache": true,
+  "_location": "/logo-file-icons",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+    "spec": "/tmp/d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+  "_shasum": "560f209ca9f69088272acf25326d3f97e9cd0b12",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11794-22256-14fso6g.srfgpsyvi/package.tgz",
+  "_where": "/tmp/apm-install-dir-11794-22256-m0a197.xuy2kgwrk9",
+  "author": {
+    "name": "Manuel Bieh",
+    "email": "atom@manuelbieh.de"
+  },
+  "bugs": {
+    "url": "https://github.com/manuelbieh/logo-file-icons/issues"
+  },
+  "contributors": [
+    {
+      "name": "Nguyen Long Nhat",
+      "email": "torn4dom4n@gmail.com"
+    }
+  ],
+  "dependencies": {},
+  "description": "Add some nice logo icons to your files in Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/manuelbieh/logo-file-icons#readme",
+  "keywords": [
+    "logos",
+    "icons",
+    "fileicon"
+  ],
+  "license": "MIT",
+  "name": "logo-file-icons",
+  "optionalDependencies": {},
+  "readme": "# Logo File Icons\n\nAdd some nice logo icons to your files in Atom. Logos were taken from [SVGPORN](http://svgporn.com)\n\nAll logos are the property of their respective owners.\n\n## Preview\n\n### Light theme\n![Preview light](https://raw.githubusercontent.com/manuelbieh/logo-file-icons/master/logo-file-icons-light.png)\n\n### Dark theme\n![Preview dark](https://raw.githubusercontent.com/manuelbieh/logo-file-icons/master/logo-file-icons-dark.png)\n\n\n## License\nMIT License. See [LICENSE](https://github.com/manuelbieh/logo-file-icons/blob/master/LICENSE.md) for details.\nCopyright &copy; 2016 [Manuel Bieh](https://github.com/manuelbieh).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelbieh/logo-file-icons.git"
+  },
+  "version": "1.12.0"
+}
